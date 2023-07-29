@@ -773,7 +773,7 @@ function foo() {
 }
 ```
 
-### 全局变量、顶层函数和 `window` 变量
+### 全局变量、顶层函数和全局对象 `window`
 
 另外，如果一个变量不在任何函数中定义，则会被作为一个全局变量，并绑定到 JavaScript 的默认全局对象 `window` 下，比如我们的全局变量为 `val`，则可以用 `window.val` 进行访问。
 
@@ -868,11 +868,29 @@ var {hostname:domain, pathname:path} = location;
 
 ## JavaScript 对象进阶
 
-### 隐藏的属性——原型
+### 构造函数
 
+### 隐藏的属性——原型
 
 TODO
 
 ```js 
 ```
+
+### `class` 继承
+
+
+
+##  浏览器提供的对象
+
+### `window` 对象
+
+
+### `navigator` 对象
+
+### `screen` 对象
+
+
+### `location` 对象
+
 
