@@ -866,6 +866,20 @@ var x=1, y=2;
 var {hostname:domain, pathname:path} = location;
 ```
 
+##  JavaScript DOM 与事件监听
+
+## JavaScript BOM 
+
+### `window` 对象
+
+
+### `navigator` 对象
+
+### `screen` 对象
+
+
+### `location` 对象
+
 ## JavaScript 对象进阶
 
 ### 构造函数
@@ -879,18 +893,5 @@ TODO
 
 ### `class` 继承
 
-
-
-##  浏览器提供的对象
-
-### `window` 对象
-
-
-### `navigator` 对象
-
-### `screen` 对象
-
-
-### `location` 对象
-
+### 标准对象介绍
 
